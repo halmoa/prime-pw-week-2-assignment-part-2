@@ -135,14 +135,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne + colorTwo = 'purple';
 }
 */
+//FIX: set the variables to the correct colors per instructions and then I added colorTwo to the 
+//conditional
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -156,6 +158,8 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+//FIX: I changed 'const' to 'let' time because the time is subject to change throughout the day.
+//since one or more of these conditionals is true it will run the log.
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -165,10 +169,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
-}
+} 
 */
-
+//FIX: rearranged the conditional inside the if statement to accurately represent the description
+//and removed the additional else statement as it was not needed and placed the correct log to run in the statement.
