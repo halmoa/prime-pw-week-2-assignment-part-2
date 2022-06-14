@@ -26,9 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called name and we set it to a string Dane
+// We then write a conditional statement saying that if the variable name is equal
+// to the string 'Mary' then log the following 'Hi, Mary'. If that top part proves to be
+// true then it will go down the line of code and also have the log of 'how do you do'
+//but since this conditional if statement is false its not going to log anything.
 //
 
 //CODE
@@ -45,12 +47,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret and its not assigned a value.
+// We create another variable called 'code' and its set to the number 123.
+// we have the first if conditional statement that seems to set the variable secret
+//to a string called 'super' and we've also reassigned the value of code to be 123*2 which is 246
+//the next if conditional is asking is the variable code which has a new value of 246 greater than the number 250
+//since code is NOT greater than the number 250, what will log is 'super' since secret now has the value of super.
 
 //CODE
+
 /*
 let secret;
 
@@ -70,7 +75,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
+// we've got 3 variables, 2 of which are numbers and one is a boolean.
 // 
 // 
 //
