@@ -76,10 +76,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // we've got 3 variables, 2 of which are numbers and one is a boolean.
-// 
-// 
-//
-
+// We have an if else if statement down below. Going through each line the first
+// if statement is false because both conditionals have to be true to run that log so it will not console log 'you're a student on the west coast'
+// line 91 is false due to the variable isStudent being set to the value of 'true' and age being greater than 30.
+//line 93 is true so js will run the log 'Welcome to Prime' and line 95 wont run since we've hit our true conditional statement.
 //CODE
 /*
 let isStudent = true;
